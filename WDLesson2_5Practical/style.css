@@ -34,6 +34,7 @@
   opacity: 0.9;
 }
 /* Challenge 14: Change the transition for all elements to 1 second */
-body{
-    transition: 1;
+#firstGallery img:hover{
+    transition: 1s;
+}
 }
