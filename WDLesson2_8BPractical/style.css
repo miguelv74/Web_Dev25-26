@@ -14,7 +14,27 @@
       display:flex;
       background-color: green;
    }
-.container h5{
+#hello{
    flex:1;
    flex-direction: column;
+}
+.center{
+   display:flex;
+}
+#html{
+   flex:1;
+}
+#SC{
+   flex:1;
+}
+.body{
+   text-align: center;
+   flex:14;
+   display: flex;
+}
+#learn{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  flex:1;
+   flex-direction: column;
+   display: flex;
 }
