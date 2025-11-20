@@ -34,7 +34,7 @@
 }
 #learn{
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  flex:1;
+  flex:1.5;
    flex-direction: column;
    display: flex;
 }
