@@ -2,6 +2,7 @@
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
    .container{
       display: flex;
+      font-family: Arial, Helvetica, sans-serif;
    }
    h3{
       flex:1
@@ -10,5 +11,10 @@
       flex:1
    }
    #bar{
-      
+      display:flex;
+      background-color: green;
    }
+.container h5{
+   flex:1;
+   flex-direction: column;
+}
