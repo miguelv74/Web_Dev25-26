@@ -1,54 +1,51 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
-   .container{
-      display: flex;
-      font-family: Arial, Helvetica, sans-serif;
-   }
-   h3{
-      flex:1
-   }
-   h4{
-      flex:1
-   }
-   #bar{
-      display:flex;
-      background-color: green;
-      color:aliceblue;
-   }
-#hello{
-   flex:1;
-   flex-direction: column;
+  .container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.center{
-   display:flex;
+h3, h4 {
+  flex: 1;
 }
-.body{
-   text-align: center;
-   justify-content: bottom;
-   flex:14;
-   display: flex;
-   max-height: 100;
+#bar {
+  display: flex;
+  background-color: green;
+  color: aliceblue;
 }
-#html{
-   flex:1;
-   justify-content: bottom;
+#learn {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
-#SC{
-   flex:1;
-   justify-content: bottom;
-}
-#learn{
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+#learn a{
   flex:1;
-   flex-direction: column;
-   display: flex;
 }
-#bottom{
-   align-items: bottom;
-   background-color: green;
-   flex:1
+
+.body {
+  flex: 14;
+  display: flex;
+  text-align: center;
 }
- 
-#copyright{
-   flex:1
+#html {
+  flex: 1;
+  text-align: center;
+}
+#SC {
+  flex: 1;
+  text-align: center;
+}
+#bottom {
+  background-color: green;
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+}
+#copyright {
+  flex: 1;
+  text-align: center;
+}
+#bottom h4{
+  color:white;
 }
